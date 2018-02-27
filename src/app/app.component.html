@@ -1,16 +1,10 @@
-<nav mat-tab-nav-bar>
-    <a mat-tab-link
-       [routerLink]="'json-editor'"
-       routerLinkActive #rla1="routerLinkActive"
-       [active]="rla1.isActive">
-      json-editor
-    </a>
-    <a mat-tab-link
-       [routerLink]="'json-schema'"
-       routerLinkActive #rla2="routerLinkActive"
-       [active]="rla2.isActive">
-      Angular-json-schema
-    </a>
-  </nav>
-  
-  <router-outlet></router-outlet>
+<mat-toolbar color="primary">angular2-json-schema-form</mat-toolbar>
+<mat-card class="card">
+  <json-schema-form
+  loadExternalAssets="true"
+  [schema]="schema"
+  [options]="jsonFormOptions"
+  [framework]="selectedFramework"
+  (onSubmit)="yourOnSubmitFn($event)">
+</json-schema-form>
+</mat-card>

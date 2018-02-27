@@ -40,31 +40,16 @@ import {
   MatTooltipModule,
   MatStepperModule,
 } from '@angular/material';
-import { JsonSchemaComponent } from './json-schema/json-schema.component';
-import { RouterModule, Routes } from '@angular/router';
-import { JsonEditorComponent } from './json-editor/json-editor.component';
 import {
   JsonSchemaFormModule, MaterialDesignFrameworkModule
 } from 'angular2-json-schema-form';
 
-const appRoutes: Routes = [
-  { path: 'json-editor',      component: JsonEditorComponent },
-  { path: 'json-schema',      component: JsonSchemaComponent },
-  { path: '',
-  redirectTo: '/json-editor',
-  pathMatch: 'full'
-}
-];
 @NgModule({
   declarations: [
     AppComponent,
-    JsonSchemaComponent,
-    JsonEditorComponent
+
   ],
   imports: [
-    RouterModule.forRoot(
-      appRoutes
-    ),
     MaterialDesignFrameworkModule,
     JsonSchemaFormModule.forRoot(MaterialDesignFrameworkModule),
     BrowserModule,
