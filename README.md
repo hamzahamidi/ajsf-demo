@@ -1,7 +1,7 @@
 # Json schema form generator Sample with Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6- [json-editor](https://github.com/jdorn/json-editor).7.
-It includes json schema form: [Angular2-json-schema-form](https://github.com/dschnelldavis/angular2-json-schema-form)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6. It includes [Angular2-json-schema-form](https://github.com/dschnelldavis/angular2-json-schema-form).
+The DEMO is available [here](https://hamidihamza.com/schema-form-generator/).
 
 ## Development server
 
