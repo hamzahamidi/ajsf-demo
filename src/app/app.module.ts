@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-import { AppComponent } from './app.component';
+import { AppComponent, AppServiceParamsComponent } from './app.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CdkTableModule } from '@angular/cdk/table';
@@ -47,8 +47,10 @@ import {
 @NgModule({
   declarations: [
     AppComponent,
+    AppServiceParamsComponent
 
   ],
+  entryComponents: [AppServiceParamsComponent],
   imports: [
     MaterialDesignFrameworkModule,
     JsonSchemaFormModule.forRoot(MaterialDesignFrameworkModule),

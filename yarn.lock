@@ -294,14 +294,7 @@ ajv-keywords@^2.0.0, ajv-keywords@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-2.1.1.tgz#617997fc5f60576894c435f940d819e135b80762"
 
-ajv@^4.9.1:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
-  dependencies:
-    co "^4.6.0"
-    json-stable-stringify "^1.0.1"
-
-ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5, ajv@~5.5.1:
+ajv@5.5.2, ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5, ajv@~5.5.1:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
   dependencies:
@@ -309,6 +302,13 @@ ajv@^5.0.0, ajv@^5.1.0, ajv@^5.1.5, ajv@~5.5.1:
     fast-deep-equal "^1.0.0"
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
+
+ajv@^4.9.1:
+  version "4.11.8"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz#82ffb02b29e662ae53bdc20af15947706739c536"
+  dependencies:
+    co "^4.6.0"
+    json-stable-stringify "^1.0.1"
 
 ajv@^6.0.1:
   version "6.1.1"
@@ -834,6 +834,10 @@ brace-expansion@^1.1.7:
   dependencies:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
+
+brace@0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/brace/-/brace-0.11.0.tgz#155cd80607687dc8cb908f0df94e62a033c1d563"
 
 braces@^0.1.2:
   version "0.1.5"
@@ -3736,6 +3740,10 @@ jasminewd2@^2.1.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.2.0.tgz#e37cf0b17f199cce23bea71b2039395246b4ec4e"
 
+javascript-natural-sort@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/javascript-natural-sort/-/javascript-natural-sort-0.7.1.tgz#f9e2303d4507f6d74355a73664d1440fb5a0ef59"
+
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
@@ -3809,6 +3817,14 @@ json3@^3.3.2:
 json5@^0.5.0, json5@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
+
+jsoneditor@^5.14.0:
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/jsoneditor/-/jsoneditor-5.14.0.tgz#8405b988047ef4e26dbd08b10f2d9b9d10ba106e"
+  dependencies:
+    ajv "5.5.2"
+    brace "0.11.0"
+    javascript-natural-sort "0.7.1"
 
 jsonfile@^4.0.0:
   version "4.0.0"
