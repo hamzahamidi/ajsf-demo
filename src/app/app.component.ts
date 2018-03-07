@@ -107,14 +107,18 @@ export class AppServiceParamsComponent implements AfterViewInit {
       'numbers': {
         'title': 'numbers',
         'type': 'number',
-        'validationMessage': 'Invalid number'
+        'validationMessages': {
+          'pattern': 'Invalid number'
+        }
       },
       'email': {
         'id': 'Email',
         'title': 'Email',
         'type': 'string',
         'pattern': '^\\S+@\\S+$',
-        'validationMessage': 'Invalid Email.'
+        'validationMessages': {
+          'pattern': 'Invalid Email.'
+        }
       },
       'directory': {
         'id': 'directory',
@@ -122,18 +126,13 @@ export class AppServiceParamsComponent implements AfterViewInit {
         'type': 'string',
         'pattern': '^(.+)/([^/]+)$',
         'default': '/var/vcap/store/cassandra',
-        'validationMessage': 'Invalid directory.'
+        'validationMessages': {
+          'pattern': 'Invalid directory.'
+        }
       },
       'title': {
         'type': 'string',
         'enum': ['dr', 'jr', 'sir', 'mrs', 'mr', 'NaN', 'dj']
-      },
-      'comment': {
-        'id': 'Comment',
-        'title': 'Comment',
-        'type': 'string',
-        'maxLength': 20,
-        'validationMessage': 'Max 20'
       },
       'arr': {
         'type': 'array',
