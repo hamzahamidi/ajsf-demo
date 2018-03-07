@@ -3778,10 +3778,6 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
 
-json-editor@^0.7.28:
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/json-editor/-/json-editor-0.7.28.tgz#2aa5b0990a2b5076789158e7dd8a2d2108ce9cc5"
-
 json-loader@^0.5.4:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/json-loader/-/json-loader-0.5.7.tgz#dca14a70235ff82f0ac9a3abeb60d337a365185d"
