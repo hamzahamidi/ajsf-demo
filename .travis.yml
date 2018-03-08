@@ -13,7 +13,8 @@ script:
   - ng build 
 
 after_success:
-  - sed -i -e 's/href="\/"/href=".\/"/g' dist/index.html
+  - chmod +x scripts/ci/post-build.sh
+  - ./scripts/ci/post-build.sh
 
 deploy:
   provider: pages
