@@ -63,7 +63,7 @@ export class AppServiceParamsComponent implements AfterViewInit {
   schema = {
     'type': 'object',
     'title': 'test',
-    'required': ['name', 'Description', 'bindable', 'simpleUrl', 'numbers'],
+    'required': ['name', 'Description', 'bindable', 'simpleUrl'],
     'properties': {
       'name': {
         'id': 'Name',
@@ -102,13 +102,6 @@ export class AppServiceParamsComponent implements AfterViewInit {
         'pattern': '^(http[s]?:\\/\\/(www\\.)?|ftp:\\/\\/(www\\.)?|www\\.){1}([0-9A-Za-z-\\.@:%_\+~#=]+)+((\\.[a-zA-Z]{2,3})+)(/(.)*)?(\\?(.)*)?',
         'validationMessages': {
           'pattern': 'URL invalide'
-        }
-      },
-      'numbers': {
-        'title': 'numbers',
-        'type': 'number',
-        'validationMessages': {
-          'pattern': 'Invalid number'
         }
       },
       'email': {

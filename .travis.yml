@@ -12,6 +12,9 @@ before_script:
 script:
   - ng build 
 
+after_success:
+  - sed -i -e 's/href="\/"/href=".\/"/g' dist/index.html
+
 deploy:
   provider: pages
   skip-cleanup: true
