@@ -1,40 +1,7 @@
-<mat-toolbar color="primary">Service Catalog</mat-toolbar>
-<mat-card>
-  <mat-card-header>
-    <h4>
-      <b>p-rabbitmq</b>
-    </h4>
-  </mat-card-header>
-  <mat-card-content>
-    <p>RabbitMQ is a robust and scalable high-performance multi-protocol messaging broker.</p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="openDialogServiceParams()">Edit service parameters</button>
-  </mat-card-actions>
-</mat-card>
-<mat-card>
-  <mat-card-header>
-    <h4>
-      <b>p-mysql</b>
-    </h4>
-  </mat-card-header>
-  <mat-card-content>
-    <p>MySQL databases on demand.</p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="openDialogServiceParams()">Edit service parameters</button>
-  </mat-card-actions>
-</mat-card>
-<mat-card>
-  <mat-card-header>
-    <h4>
-      <b>mongodb26</b>
-    </h4>
-  </mat-card-header>
-  <mat-card-content>
-    <p>MongoDB 2.6 service for application development and testing.</p>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button color="primary" (click)="openDialogServiceParams()">Edit service parameters</button>
-  </mat-card-actions>
-</mat-card>
+
+<json-schema-form
+loadExternalAssets="true"
+[schema]="schema"
+[framework]="selectedFramework"
+(onSubmit)="submit($event)">
+</json-schema-form>
