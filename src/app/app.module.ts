@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { Bootstrap3FrameworkModule } from '@ajsf/bootstrap3';
+import { JsonSchemaFormModule } from '@ajsf/core';
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    Bootstrap3FrameworkModule
+    JsonSchemaFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
