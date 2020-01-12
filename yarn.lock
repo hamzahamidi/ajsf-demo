@@ -151,9 +151,10 @@
   version "5.2.3"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-5.2.3.tgz#b858c1cd3740b29de145a6d60b2562eef391d3b3"
 
-"@angular/material@5.0.0-rc.3":
-  version "5.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.0.0-rc.3.tgz#d27b8e5786d2ae0281fbc42806cc275b160627e7"
+"@angular/material@5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-5.2.5.tgz#287af95d234e0644244d9db565f7a05c10b737f8"
+  integrity sha512-IltfBeTJWnmZehOQNQ7KoFs7MGWuZTe0g21hIitGkusVNt1cIoTD24xKH5jwztjH19c04IgiwonpurMKM6pBCQ==
   dependencies:
     tslib "^1.7.1"
 
