@@ -1,6 +1,10 @@
-# ajsf demo
+# ajsf demo core
 
-Demo application using [Angular JSON Schema Form application core](https://github.com/hamzahamidi/ajsf)
+[![Build Status](https://travis-ci.org/hamzahamidi/ajsf-demo.svg?branch=master)](https://travis-ci.org/hamzahamidi/ajsf-demo)
+
+Demo application using [Angular JSON Schema Form application core](https://github.com/hamzahamidi/ajsf).
+
+Feel free to check the online [demo](https://hamidihamza.com/ajsf-demo).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
