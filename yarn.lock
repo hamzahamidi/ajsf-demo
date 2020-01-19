@@ -135,9 +135,10 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/forms@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.2.3.tgz#4992419191a3800516085209be331fc0d63bd099"
+"@angular/forms@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.2.11.tgz#712534fa317e194caa452d0c1a8efc72f5e040d6"
+  integrity sha512-wBllFlIubPclAFRXUc84Kc7TMeKOftzrQraVZ7ooTNeFLLa/FZLN2K8HGyRde8X/XDsMu1XAmjNfkz++spwTzA==
   dependencies:
     tslib "^1.7.1"
 
