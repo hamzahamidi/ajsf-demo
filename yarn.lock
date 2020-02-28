@@ -27,9 +27,10 @@
     "@ngtools/json-schema" "^1.1.0"
     rxjs "^5.5.6"
 
-"@angular/animations@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.3.tgz#e0eb8d55f807e799df128af9150c075c9ab82adf"
+"@angular/animations@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.11.tgz#2bd3fe9e72916ca28de9bfaaddf0cb936565a0b8"
+  integrity sha512-J7wKHkFn3wV28/Y1Qm4yjGXVCwXzj1JR5DRjGDTFnxTRacUFx7Nj0ApGhN0b2+V0NOvgxQOvEW415Y22kGoblw==
   dependencies:
     tslib "^1.7.1"
 
@@ -102,9 +103,10 @@
   optionalDependencies:
     node-sass "^4.7.2"
 
-"@angular/common@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.3.tgz#f2a5c12ec44b73a248d8dcb2d37ac2749f091cf7"
+"@angular/common@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.11.tgz#ee7520b02510a2868f30b1f91897102d48324edf"
+  integrity sha512-LniJjGAeftUJDJh+2+LEjltcGen08C/VMxQ/eUYmesytKy1sN+MWzh3GbpKfEWtWmyUsYTG9lAAJNo3L3jPwsw==
   dependencies:
     tslib "^1.7.1"
 
@@ -117,15 +119,17 @@
     reflect-metadata "^0.1.2"
     tsickle "^0.26.0"
 
-"@angular/compiler@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.2.3.tgz#49167adb35bdb5e7e915cce912c432300fc16816"
+"@angular/compiler@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.2.11.tgz#ca2c38cda6ddde52b5948b8cff6551ff19d5e9de"
+  integrity sha512-ICvB1ud1mxaXUYLb8vhJqiLhGBVocAZGxoHTglv6hMkbrRYcnlB3FZJFOzBvtj+krkd1jamoYLI43UAmesqQ6Q==
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.2.3.tgz#157dcb437d085b325513689e0e4ae70182f3f708"
+"@angular/core@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.2.11.tgz#0e38fdf4fa038a3c168c72952682f2ee3721f1a3"
+  integrity sha512-h2vpvXNAdOqKzbVaZcHnHGMT5A8uDnizk6FgGq6SPyw9s3d+/VxZ9LJaPjUk3g2lICA7og1tUel+2YfF971MlQ==
   dependencies:
     tslib "^1.7.1"
 
@@ -135,15 +139,17 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/forms@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.2.3.tgz#4992419191a3800516085209be331fc0d63bd099"
+"@angular/forms@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.2.11.tgz#712534fa317e194caa452d0c1a8efc72f5e040d6"
+  integrity sha512-wBllFlIubPclAFRXUc84Kc7TMeKOftzrQraVZ7ooTNeFLLa/FZLN2K8HGyRde8X/XDsMu1XAmjNfkz++spwTzA==
   dependencies:
     tslib "^1.7.1"
 
-"@angular/http@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/http/-/http-5.2.3.tgz#067945f6339619b0b3fd13e8af7b6a1301e69176"
+"@angular/http@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/http/-/http-5.2.11.tgz#2b649983c954ae754f6f39060e2d83da0bf352ad"
+  integrity sha512-eR7wNXh1+6MpcQNb3sq4bJVX03dx50Wl3kpPG+Q7N1VSL0oPQSobaTrR17ac3oFCEfSJn6kkUCqtUXha6wcNHg==
   dependencies:
     tslib "^1.7.1"
 
@@ -157,21 +163,24 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser-dynamic@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.3.tgz#87d5172da2c102c3cf48da29d39e9b4b9414b419"
+"@angular/platform-browser-dynamic@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.11.tgz#1b2a9de4af207bee7040400f61c01a44e929c308"
+  integrity sha512-5kKPNULcXNwkyBjpHfF+pq+Yxi8Zl866YSOK9t8txoiQ9Ctw97kMkEJcTetk6MJgBp/NP3YyjtoTAm8oXLerug==
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.3.tgz#953df896839879e2b8ca89a364d66e3ac1dcd167"
+"@angular/platform-browser@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.11.tgz#5be379f96d74b4ebe84a447633ed5279cb7e641e"
+  integrity sha512-6YZ4IpBFqXx88vEzBZG2WWnaSYXbFWDgG0iT+bZPHAfwsbmqbcMcs7Ogu+XZ4VmK02dTqbrFh7U4P2W+sqrzow==
   dependencies:
     tslib "^1.7.1"
 
-"@angular/router@^5.1.1":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-5.2.3.tgz#c56bce42817c67aeb65291e5adf293300038069e"
+"@angular/router@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-5.2.11.tgz#65a902daea923086ec728817c43d87becd99d7a7"
+  integrity sha512-NT8xYl7Vr3qPygisek3PlXqNROEjg48GXOEsDEc7c8lDBo3EB9Tf328fWJD0GbLtXZNhmmNNxwIe+qqPFFhFAA==
   dependencies:
     tslib "^1.7.1"
 
